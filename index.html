@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <!--          Header-section           -->
+    
+    <header>
+        <nav class="disk-view">
+            <ul>
+                <li class="name"><h1><span>M</span>anirethinam.</h1></li>
+                <li>
+                    <ul class="dynamic-iconbar">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#project">Project</a></li>
+                        <li><a href="#contact">Contact As</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="linked-in">
+                        <a href="https://www.linkedin.com/in/manirethinam-r-427b05347/"><i class="fa-brands fa-square-linkedin fa-lg" style="color: #74C0FC;"></i>Linked in</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <nav class="mobile-view">
+            <ul>
+                <li class="name"><h1><span>M</span>anirethinam.</h1></li>
+                <li onclick="openmenu()"><i class="fa-solid fa-bars fa-xl" style="color: #ffffff;"></i></li>
+            </ul>
+            <div class="menu-box">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact As</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-img">
+            <img src="src/profile.jpg" alt="img">
+        </div>
+        <div class="home-content">
+            <h1>I'm <span>Manirethinam R</span></h1>
+            <h2>I'm a <span> Web developer</span></h2>
+            <p>A full stack developer in tha learning phase, with some hand-on exprience in building project using trend wed technologys.
+                 I focus on creating responsive, user friendly  designs and enjoy turning ideas into real-world web solution.
+                  My journey is driven by curiosity, continuous learning, and a passion for practical development.</p>
+            <div>
+                <div><i class="fa-solid fa-location-dot fa-xl" style="color: aqua;"></i><h4>Pudukkottai</h4></div>
+                <div><i class="fa-solid fa-phone fa-xl" style="color: aqua;"></i><h4>+91 8807914963</h4></div>
+                <div><i class="fa-solid fa-envelope fa-xl" style="color: aqua;"></i><h4>Manirethinam2005@gmail.com</h4></div>
+            </div>
+            <a href="#">Download CV</a>
+        </div>
+    </section>
+    <!---               about section              -->
+    <section class="about" id="about">
+        <h2>About Me</h2>
+        <p>I'm Manirethinam, a full stack developer with hands-on exprience in building responsive web application. 
+            I enjoy turning ideas into functional solution using technologys like MongoDB ,Express.js ,Node.js ,HTML and CSS Currently and also i have basic knowledge about Python, Java and C language. I'm pursuing my 3rd year of B.Tech in Information technology at Dhanalakshmi Srinivasan University. Alongside my development journey, I'm actively sharing my knowledge with other.</p>
+    </section>
+
+    <!--                 skills                     -->
+    
+    <section class="skills" id="skills">
+        <h2>My Skills</h2>
+        <div class="skill-box">
+            <div><svg xmlns="http://www.w3.org/2000/svg" style="background-color: wheat; border-radius: 10px;" x="0px" y="0px" width="80" height="80" viewBox="0 0 48 48"><path fill="#E65100" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path><path fill="#FF6D00" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path><path fill="#FFF" d="M24,25v-4h8.6l-0.7,11.5L24,35.1v-4.2l4.1-1.4l0.3-4.5H24z M32.9,17l0.3-4H24v4H32.9z"></path><path fill="#EEE" d="M24,30.9v4.2l-7.9-2.6L15.7,27h4l0.2,2.5L24,30.9z M19.1,17H24v-4h-9.1l0.7,12H24v-4h-4.6L19.1,17z"></path></svg><h4>HTML5</h4></div>
+            <div><svg xmlns="http://www.w3.org/2000/svg" style="background-color: wheat; border-radius: 10px;" x="0px" y="0px" width="80" height="80" viewBox="0 0 48 48"><path fill="#0277BD" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path><path fill="#039BE5" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path><path fill="#FFF" d="M33.1 13L24 13 24 17 28.9 17 28.6 21 24 21 24 25 28.4 25 28.1 29.5 24 30.9 24 35.1 31.9 32.5 32.6 21 32.6 21z"></path><path fill="#EEE" d="M24,13v4h-8.9l-0.3-4H24z M19.4,21l0.2,4H24v-4H19.4z M19.8,27h-4l0.3,5.5l7.9,2.6v-4.2l-4.1-1.4L19.8,27z"></path></svg><h4>CSS3</h4></div>
+            <div><svg xmlns="http://www.w3.org/2000/svg" style="background-color: wheat; border-radius: 10px;" x="0px" y="0px" width="80" height="80" viewBox="0 0 48 48"><path fill="#ffd600" d="M6,42V6h36v36H6z"></path><path fill="#000001" d="M29.538 32.947c.692 1.124 1.444 2.201 3.037 2.201 1.338 0 2.04-.665 2.04-1.585 0-1.101-.726-1.492-2.198-2.133l-.807-.344c-2.329-.988-3.878-2.226-3.878-4.841 0-2.41 1.845-4.244 4.728-4.244 2.053 0 3.528.711 4.592 2.573l-2.514 1.607c-.553-.988-1.151-1.377-2.078-1.377-.946 0-1.545.597-1.545 1.377 0 .964.6 1.354 1.985 1.951l.807.344C36.452 29.645 38 30.839 38 33.523 38 36.415 35.716 38 32.65 38c-2.999 0-4.702-1.505-5.65-3.368L29.538 32.947zM17.952 33.029c.506.906 1.275 1.603 2.381 1.603 1.058 0 1.667-.418 1.667-2.043V22h3.333v11.101c0 3.367-1.953 4.899-4.805 4.899-2.577 0-4.437-1.746-5.195-3.368L17.952 33.029z"></path></svg><h4>JavaScript</h4></div>
+            <div><svg xmlns="http://www.w3.org/2000/svg" style="background-color: wheat; border-radius: 10px;" x="0px" y="0px" width="80" height="80" viewBox="0 0 48 48"><path fill="#d50000" d="M0,15h48v17H24v3H13v-3H0V15z"></path><path fill="#fff" d="M3 29L8 29 8 21 11 21 11 29 13 29 13 18 3 18zM16 18v14h5v-3h5V18H16zM24 26h-3v-5h3V26zM29 18L29 29 34 29 34 21 37 21 37 29 40 29 40 21 43 21 43 29 45 29 45 18z"></path></svg><h4>NPM</h4></div>
+            <div><svg xmlns="http://www.w3.org/2000/svg" style="background-color: wheat; border-radius: 10px;" x="0px" y="0px" width="80" height="80" viewBox="0 0 48 48"><path fill="#388e3c" d="M17.204 19.122l-4.907 2.715C12.113 21.938 12 22.126 12 22.329v5.433c0 .203.113.39.297.492l4.908 2.717c.183.101.41.101.593 0l4.907-2.717C22.887 28.152 23 27.965 23 27.762v-5.433c0-.203-.113-.39-.297-.492l-4.906-2.715c-.092-.051-.195-.076-.297-.076-.103 0-.205.025-.297.076M42.451 24.013l-.818.452c-.031.017-.049.048-.049.082v.906c0 .034.019.065.049.082l.818.453c.031.017.068.017.099 0l.818-.453c.03-.017.049-.048.049-.082v-.906c0-.034-.019-.065-.05-.082l-.818-.452C42.534 24.004 42.517 24 42.5 24S42.466 24.004 42.451 24.013"></path><path fill="#37474f" d="M35.751,13.364l-2.389-1.333c-0.075-0.042-0.167-0.041-0.241,0.003 c-0.074,0.044-0.12,0.123-0.12,0.209L33,20.295l-2.203-1.219C30.705,19.025,30.602,19,30.5,19c-0.102,0-0.205,0.025-0.297,0.076 h0.001l-4.907,2.715C25.113,21.892,25,22.08,25,22.282v5.433c0,0.203,0.113,0.39,0.297,0.492l4.908,2.717 c0.183,0.101,0.41,0.101,0.593,0l4.907-2.717C35.887,28.106,36,27.918,36,27.715V13.788C36,13.612,35.904,13.45,35.751,13.364z M32.866,26.458l-2.23,1.235c-0.083,0.046-0.186,0.046-0.269,0l-2.231-1.235C28.051,26.412,28,26.326,28,26.234v-2.47 c0-0.092,0.051-0.177,0.135-0.224l2.231-1.234h-0.001c0.042-0.023,0.088-0.034,0.135-0.034c0.047,0,0.093,0.012,0.135,0.034 l2.23,1.234C32.949,23.587,33,23.673,33,23.765v2.47C33,26.326,32.949,26.412,32.866,26.458z"></path><path fill="#2e7d32" d="M17.204,19.122L12,27.762c0,0.203,0.113,0.39,0.297,0.492l4.908,2.717 c0.183,0.101,0.41,0.101,0.593,0L23,22.329c0-0.203-0.113-0.39-0.297-0.492l-4.906-2.715c-0.092-0.051-0.195-0.076-0.297-0.076 c-0.103,0-0.205,0.025-0.297,0.076"></path><path fill="#4caf50" d="M17.204,19.122l-4.907,2.715C12.113,21.938,12,22.126,12,22.329l5.204,8.642 c0.183,0.101,0.41,0.101,0.593,0l4.907-2.717C22.887,28.152,23,27.965,23,27.762l-5.203-8.64c-0.092-0.051-0.195-0.076-0.297-0.076 c-0.103,0-0.205,0.025-0.297,0.076"></path><path fill="#37474f" d="M47.703 21.791l-4.906-2.715C42.705 19.025 42.602 19 42.5 19c-.102 0-.205.025-.297.076h.001l-4.907 2.715C37.114 21.892 37 22.084 37 22.294v5.411c0 .209.114.402.297.503l4.908 2.717c.184.102.409.102.593 0l2.263-1.253c.207-.115.206-.412-.002-.526l-4.924-2.687C40.052 26.412 40 26.325 40 26.231v-2.466c0-.092.05-.177.13-.221l2.235-1.236h-.001c.042-.023.088-.034.135-.034.047 0 .093.012.135.034l2.235 1.237c.08.044.13.129.13.221v2.012c0 .086.046.166.121.209.075.042.167.042.242-.001l2.398-1.393c.148-.086.24-.245.24-.417v-1.88C48 22.085 47.886 21.892 47.703 21.791zM10.703 21.791l-4.906-2.715C5.705 19.025 5.602 19 5.5 19c-.102 0-.205.025-.297.076h.001l-4.907 2.715C.114 21.892 0 22.084 0 22.294v7.465c0 .086.046.166.121.209.075.042.167.042.242-.001l2.398-1.393C2.909 28.488 3 28.329 3 28.157v-4.393c0-.092.05-.177.13-.221l2.235-1.236H5.365c.042-.023.088-.034.135-.034.047 0 .093.012.135.034l2.235 1.237C7.95 23.588 8 23.673 8 23.765v4.393c0 .172.091.331.24.417l2.398 1.393c.075.043.167.043.242.001C10.954 29.925 11 29.845 11 29.759v-7.464C11 22.085 10.886 21.892 10.703 21.791z"></path></svg><h4>Node.js</h4></div>
+            <div><svg xmlns="http://www.w3.org/2000/svg" style="background-color: wheat; border-radius: 10px;" x="0px" y="0px" width="80" height="80" viewBox="0 0 48 48"><path fill="#212121" d="M23.697,37.56h1.18c0.84,0,1.631-0.392,2.139-1.061l7.485-9.847l7.485,9.847	c0.508,0.668,1.299,1.061,2.139,1.061h1.18L35.756,25l9.121-12h-1.18c-0.84,0-1.631,0.392-2.139,1.061L34.5,23.347l-7.059-9.287	C26.933,13.392,26.142,13,25.302,13h-1.18l9.121,12L23.697,37.56z"></path><path fill="#212121" d="M24,26v-3c0-6.675-5.945-11.961-12.829-10.852C5.812,13.011,2,17.857,2,23.284L2,24v2v0.142	c0,6.553,4.777,11.786,10.868,11.858c5.092,0.06,9.389-3.344,10.707-7.999h-1.028c-0.62,0-1.182,0.355-1.451,0.913	c-1.739,3.595-5.789,5.862-10.228,4.842C6.776,34.815,4,30.981,4,26.783V26H24z M4,23.71c0-4.708,2.804-8.557,6.924-9.478	C16.798,12.92,22,17.352,22,23v1H4V23.71z"></path></svg><h4>Express.js</h4></div>
+            <div><img width="80" height="80" style="background-color: wheat; border-radius: 10px;" src="https://img.icons8.com/skeuomorphism/96/mongo-db.png" alt="mongo-db"/><h4>MongoDB</h4></div>
+            <div><svg xmlns="http://www.w3.org/2000/svg" style="background-color: wheat; border-radius: 10px;" x="0px" y="0px" width="80" height="80" viewBox="0 0 48 48"><path fill="#F4511E" d="M42.2,22.1L25.9,5.8C25.4,5.3,24.7,5,24,5c0,0,0,0,0,0c-0.7,0-1.4,0.3-1.9,0.8l-3.5,3.5l4.1,4.1c0.4-0.2,0.8-0.3,1.3-0.3c1.7,0,3,1.3,3,3c0,0.5-0.1,0.9-0.3,1.3l4,4c0.4-0.2,0.8-0.3,1.3-0.3c1.7,0,3,1.3,3,3s-1.3,3-3,3c-1.7,0-3-1.3-3-3c0-0.5,0.1-0.9,0.3-1.3l-4-4c-0.1,0-0.2,0.1-0.3,0.1v10.4c1.2,0.4,2,1.5,2,2.8c0,1.7-1.3,3-3,3s-3-1.3-3-3c0-1.3,0.8-2.4,2-2.8V18.8c-1.2-0.4-2-1.5-2-2.8c0-0.5,0.1-0.9,0.3-1.3l-4.1-4.1L5.8,22.1C5.3,22.6,5,23.3,5,24c0,0.7,0.3,1.4,0.8,1.9l16.3,16.3c0,0,0,0,0,0c0.5,0.5,1.2,0.8,1.9,0.8s1.4-0.3,1.9-0.8l16.3-16.3c0.5-0.5,0.8-1.2,0.8-1.9C43,23.3,42.7,22.6,42.2,22.1z"></path></svg><h4>Git</h4></div>
+            <div><svg xmlns="http://www.w3.org/2000/svg" style="background-color: wheat; border-radius: 10px;" x="0px" y="0px" width="80" height="100" viewBox="0 0 72 72"><path d="M36,12c13.255,0,24,10.745,24,24c0,10.656-6.948,19.685-16.559,22.818c0.003-0.009,0.007-0.022,0.007-0.022	s-1.62-0.759-1.586-2.114c0.038-1.491,0-4.971,0-6.248c0-2.193-1.388-3.747-1.388-3.747s10.884,0.122,10.884-11.491	c0-4.481-2.342-6.812-2.342-6.812s1.23-4.784-0.426-6.812c-1.856-0.2-5.18,1.774-6.6,2.697c0,0-2.25-0.922-5.991-0.922	c-3.742,0-5.991,0.922-5.991,0.922c-1.419-0.922-4.744-2.897-6.6-2.697c-1.656,2.029-0.426,6.812-0.426,6.812	s-2.342,2.332-2.342,6.812c0,11.613,10.884,11.491,10.884,11.491s-1.097,1.239-1.336,3.061c-0.76,0.258-1.877,0.576-2.78,0.576	c-2.362,0-4.159-2.296-4.817-3.358c-0.649-1.048-1.98-1.927-3.221-1.927c-0.817,0-1.216,0.409-1.216,0.876s1.146,0.793,1.902,1.659	c1.594,1.826,1.565,5.933,7.245,5.933c0.617,0,1.876-0.152,2.823-0.279c-0.006,1.293-0.007,2.657,0.013,3.454	c0.034,1.355-1.586,2.114-1.586,2.114s0.004,0.013,0.007,0.022C18.948,55.685,12,46.656,12,36C12,22.745,22.745,12,36,12z"></path></svg><h4>GitHup</h4></div>
+            <div><svg xmlns="http://www.w3.org/2000/svg" style="background-color: wheat; border-radius: 10px;" x="0px" y="0px" width="80" height="80" viewBox="0 0 48 48"><path fill="#29b6f6" d="M44,11.11v25.78c0,1.27-0.79,2.4-1.98,2.82l-8.82,4.14L34,33V15L33.2,4.15l8.82,4.14 C43.21,8.71,44,9.84,44,11.11z"></path><path fill="#0277bd" d="M9,33.896L34,15V5.353c0-1.198-1.482-1.758-2.275-0.86L4.658,29.239 c-0.9,0.83-0.849,2.267,0.107,3.032c0,0,1.324,1.232,1.803,1.574C7.304,34.37,8.271,34.43,9,33.896z"></path><path fill="#0288d1" d="M9,14.104L34,33v9.647c0,1.198-1.482,1.758-2.275,0.86L4.658,18.761 c-0.9-0.83-0.849-2.267,0.107-3.032c0,0,1.324-1.232,1.803-1.574C7.304,13.63,8.271,13.57,9,14.104z"></path></svg><h4>VS Code</h4></div>
+            <div><svg xmlns="http://www.w3.org/2000/svg" style="background-color: wheat; border-radius: 10px;" x="0px" y="0px" width="80" height="80" viewBox="0 0 48 48"><path fill="#d43a02" d="M23.65,24.898c-0.998-1.609-1.722-2.943-2.725-5.455C19.229,15.2,31.24,11.366,26.37,3.999	c2.111,5.089-7.577,8.235-8.477,12.473C17.07,20.37,23.645,24.898,23.65,24.898z"></path><path fill="#d43a02" d="M23.878,17.27c-0.192,2.516,2.229,3.857,2.299,5.695c0.056,1.496-1.447,2.743-1.447,2.743	s2.728-0.536,3.579-2.818c0.945-2.534-1.834-4.269-1.548-6.298c0.267-1.938,6.031-5.543,6.031-5.543S24.311,11.611,23.878,17.27z"></path><linearGradient id="P9ujQJgz7XN9Qbny9S64Ha_Pd2x9GWu9ovX_gr1" x1="22.677" x2="30.737" y1="21.174" y2="43.318" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#5c65d6"></stop><stop offset=".999" stop-color="#464eb0"></stop></linearGradient><path fill="url(#P9ujQJgz7XN9Qbny9S64Ha_Pd2x9GWu9ovX_gr1)" d="M32.084,25.055c1.754-0.394,3.233,0.723,3.233,2.01c0,2.901-4.021,5.643-4.021,5.643 s6.225-0.742,6.225-5.505C37.521,24.053,34.464,23.266,32.084,25.055z M29.129,27.395c0,0,1.941-1.383,2.458-1.902 c-4.763,1.011-15.638,1.147-15.638,0.269c0-0.809,3.507-1.638,3.507-1.638s-7.773-0.112-7.773,2.181 C11.683,28.695,21.858,28.866,29.129,27.395z"></path><linearGradient id="P9ujQJgz7XN9Qbny9S64Hb_Pd2x9GWu9ovX_gr2" x1="19.498" x2="27.296" y1="22.77" y2="44.196" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#5c65d6"></stop><stop offset=".999" stop-color="#464eb0"></stop></linearGradient><path fill="url(#P9ujQJgz7XN9Qbny9S64Hb_Pd2x9GWu9ovX_gr2)" d="M27.935,29.571 c-4.509,1.499-12.814,1.02-10.354-0.993c-1.198,0-2.974,0.963-2.974,1.889c0,1.857,8.982,3.291,15.63,0.572L27.935,29.571z"></path><linearGradient id="P9ujQJgz7XN9Qbny9S64Hc_Pd2x9GWu9ovX_gr3" x1="18.698" x2="26.59" y1="23.455" y2="45.14" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#5c65d6"></stop><stop offset=".999" stop-color="#464eb0"></stop></linearGradient><path fill="url(#P9ujQJgz7XN9Qbny9S64Hc_Pd2x9GWu9ovX_gr3)" d="M18.686,32.739 c-1.636,0-2.695,1.054-2.695,1.822c0,2.391,9.76,2.632,13.627,0.205l-2.458-1.632C24.271,34.404,17.014,34.579,18.686,32.739z"></path><linearGradient id="P9ujQJgz7XN9Qbny9S64Hd_Pd2x9GWu9ovX_gr4" x1="18.03" x2="25.861" y1="24.198" y2="45.712" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#5c65d6"></stop><stop offset=".999" stop-color="#464eb0"></stop></linearGradient><path fill="url(#P9ujQJgz7XN9Qbny9S64Hd_Pd2x9GWu9ovX_gr4)" d="M36.281,36.632 c0-0.936-1.055-1.377-1.433-1.588c2.228,5.373-22.317,4.956-22.317,1.784c0-0.721,1.807-1.427,3.477-1.093l-1.42-0.839 C11.26,34.374,9,35.837,9,37.017C9,42.52,36.281,42.255,36.281,36.632z"></path><linearGradient id="P9ujQJgz7XN9Qbny9S64He_Pd2x9GWu9ovX_gr5" x1="20.725" x2="28.228" y1="24.582" y2="45.197" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#5c65d6"></stop><stop offset=".999" stop-color="#464eb0"></stop></linearGradient><path fill="url(#P9ujQJgz7XN9Qbny9S64He_Pd2x9GWu9ovX_gr5)" d="M39,38.604 c-4.146,4.095-14.659,5.587-25.231,3.057C24.341,46.164,38.95,43.628,39,38.604z"></path></svg><h4>JAVA</h4></div>
+            <div><svg xmlns="http://www.w3.org/2000/svg" style="background-color: wheat; border-radius: 10px;" x="0px" y="0px" width="80" height="80" viewBox="0 0 48 48"><path fill="#283593" fill-rule="evenodd" d="M22.903,3.286c0.679-0.381,1.515-0.381,2.193,0 c3.355,1.883,13.451,7.551,16.807,9.434C42.582,13.1,43,13.804,43,14.566c0,3.766,0,15.101,0,18.867 c0,0.762-0.418,1.466-1.097,1.847c-3.355,1.883-13.451,7.551-16.807,9.434c-0.679,0.381-1.515,0.381-2.193,0 c-3.355-1.883-13.451-7.551-16.807-9.434C5.418,34.899,5,34.196,5,33.434c0-3.766,0-15.101,0-18.867 c0-0.762,0.418-1.466,1.097-1.847C9.451,10.837,19.549,5.169,22.903,3.286z" clip-rule="evenodd"></path><path fill="#5c6bc0" fill-rule="evenodd" d="M5.304,34.404C5.038,34.048,5,33.71,5,33.255 c0-3.744,0-15.014,0-18.759c0-0.758,0.417-1.458,1.094-1.836c3.343-1.872,13.405-7.507,16.748-9.38 c0.677-0.379,1.594-0.371,2.271,0.008c3.343,1.872,13.371,7.459,16.714,9.331c0.27,0.152,0.476,0.335,0.66,0.576L5.304,34.404z" clip-rule="evenodd"></path><path fill="#fff" fill-rule="evenodd" d="M24,10c7.727,0,14,6.273,14,14s-6.273,14-14,14 s-14-6.273-14-14S16.273,10,24,10z M24,17c3.863,0,7,3.136,7,7c0,3.863-3.137,7-7,7s-7-3.137-7-7C17,20.136,20.136,17,24,17z" clip-rule="evenodd"></path><path fill="#3949ab" fill-rule="evenodd" d="M42.485,13.205c0.516,0.483,0.506,1.211,0.506,1.784 c0,3.795-0.032,14.589,0.009,18.384c0.004,0.396-0.127,0.813-0.323,1.127L23.593,24L42.485,13.205z" clip-rule="evenodd"></path></svg><h4>C</h4></div>
+            <div><svg xmlns="http://www.w3.org/2000/svg" style="background-color: wheat; border-radius: 10px;" x="0px" y="0px" width="80" height="80" viewBox="0 0 48 48"><path fill="#0277BD" d="M24.047,5c-1.555,0.005-2.633,0.142-3.936,0.367c-3.848,0.67-4.549,2.077-4.549,4.67V14h9v2H15.22h-4.35c-2.636,0-4.943,1.242-5.674,4.219c-0.826,3.417-0.863,5.557,0,9.125C5.851,32.005,7.294,34,9.931,34h3.632v-5.104c0-2.966,2.686-5.896,5.764-5.896h7.236c2.523,0,5-1.862,5-4.377v-8.586c0-2.439-1.759-4.263-4.218-4.672C27.406,5.359,25.589,4.994,24.047,5z M19.063,9c0.821,0,1.5,0.677,1.5,1.502c0,0.833-0.679,1.498-1.5,1.498c-0.837,0-1.5-0.664-1.5-1.498C17.563,9.68,18.226,9,19.063,9z"></path><path fill="#FFC107" d="M23.078,43c1.555-0.005,2.633-0.142,3.936-0.367c3.848-0.67,4.549-2.077,4.549-4.67V34h-9v-2h9.343h4.35c2.636,0,4.943-1.242,5.674-4.219c0.826-3.417,0.863-5.557,0-9.125C41.274,15.995,39.831,14,37.194,14h-3.632v5.104c0,2.966-2.686,5.896-5.764,5.896h-7.236c-2.523,0-5,1.862-5,4.377v8.586c0,2.439,1.759,4.263,4.218,4.672C19.719,42.641,21.536,43.006,23.078,43z M28.063,39c-0.821,0-1.5-0.677-1.5-1.502c0-0.833,0.679-1.498,1.5-1.498c0.837,0,1.5,0.664,1.5,1.498C29.563,38.32,28.899,39,28.063,39z"></path></svg><h4>Python</h4></div>
+            <div><img width="80" height="80" style="background-color: wheat; border-radius: 10px;" src="https://img.icons8.com/fluency/50/sql.png" alt="sql"/><h4>SQL</h4></div>
+            <div><svg xmlns="http://www.w3.org/2000/svg" style="background-color: wheat; border-radius: 10px;" x="0px" y="0px" width="80" height="80" viewBox="0 0 48 48"><path fill="#01579B" d="M34.932,22.478C33.769,21.56,32.206,21.001,30.5,21c-1.706,0.001-3.27,0.56-4.433,1.478 c-1.184,0.935-1.969,2.252-2.059,3.747c-0.091,1.536,0.57,2.965,1.732,4.023C26.925,31.324,28.613,32,30.501,32 c1.887,0,3.574-0.676,4.757-1.753c1.162-1.057,1.824-2.486,1.734-4.023C36.902,24.731,36.116,23.413,34.932,22.478z"></path><path fill="#FF6D00" d="M45.871,25.932c-0.259-1.823-0.891-3.535-1.861-5.095c-0.891-1.433-2.035-2.688-3.397-3.745l0.002-0.002 l-0.037-0.012c-0.028-0.025-0.05-0.054-0.079-0.078L26.249,6.438c-0.86-0.689-2.12-0.552-2.811,0.313 c-0.69,0.862-0.551,2.121,0.313,2.811L29.739,14H10.5C9.125,14,8,15.125,8,16.5S9.125,19,10.5,19h7.154L2.873,31.602 c-1.048,0.898-1.17,2.478-0.271,3.525C3.097,35.704,3.797,36,4.501,36c0.576,0,1.154-0.198,1.626-0.602l8.954-7.675 c-0.022,0.807-0.039,1.538-0.035,1.761C15.046,33,19,42,30.682,42c8.318,0,15.28-5,15.28-13.261 C46.034,27.805,46.003,26.867,45.871,25.932z M39.525,29.153c-0.401,1.087-1.05,2.104-1.935,2.992 c-1.81,1.82-4.343,2.85-7.088,2.854c-2.745,0.005-5.28-1.017-7.091-2.832c-0.885-0.885-1.535-1.901-1.937-2.986 c-0.392-1.065-0.545-2.195-0.444-3.335c0.098-1.116,0.432-2.179,0.971-3.141c0.529-0.946,1.257-1.8,2.154-2.524 c1.76-1.414,3.999-2.179,6.345-2.182c2.346-0.003,4.584,0.756,6.345,2.164c0.897,0.72,1.624,1.571,2.152,2.515 c0.539,0.961,0.874,2.023,0.973,3.138C40.07,26.958,39.918,28.087,39.525,29.153z"></path></svg><h4>Blender</h4></div>
+        </div>
+    </section>
+
+    <!--                 project                        -->
+
+    <section class="project" id="project">
+        <h2>My Project</h2>
+        <div class="project-box">
+            <div>
+                <h3>Stone Paper Scissors Game</h3>
+                <p>An interactive Stone Paper Rock Paper Scissors Game built using HTML5, CSS3 and JavaScript. Play against the computer and test your luck with simple game logic and design.</p>
+                <a href="https://manirethinam27.github.io/Rock-paper-scissors-game-/">live Demo</a>
+            </div>
+            <div>
+                <h3>To-Do app</h3>
+                <p>A full-Stack To-Do app built with HTML, CSS , JavaScript, Node.js, Express.js and MongoDB. Easily Manage your daily tasks with add, show, and delete features.</p>
+                <a href="https://todo-app-yocj.onrender.com">Live Demo</a>
+            </div>
+            <div>
+                <h3>XO (Tic Tac Toe) Game</h3>
+                <p>A classic XO game developed using HTML5, CSS3, and JavaScript.play against a friend with smooth gameplay and a clean, responsive design</p>
+                <a href="https://manirethinam27.github.io/XO-Game-/">Live Demo</a>
+            </div>
+            <div>
+                <h3>Restaurant Landing Page</h3>
+                <p>A modern and visually appealing restaurant landing page built with HTML5, CSS3, JavaScript. Showcases menu highlights, location, and a clean design to attract food lovers.</p>
+                <a href="https://manirethinam27.github.io/Spicy-Fried-Chicken-shop-/">Live Demo</a>
+            </div> 
+            <div>
+                <h3>Weather App</h3>
+                <p>A responsive weather app build using HTML, CSS, JavaScript, and Openweeather API. Displays real-time weather details based on user input for any city.</p>
+                <a href="https://manirethinam27.github.io/Weather-app/">Live Demo</a>
+            </div>
+        </div>
+    </section>
+
+    <!--                 contact                           -->
+
+    <section class="contact" id="contact">
+        <h2>Get in touch</h2>
+        <div>
+            <div class="contact-box">
+                <div><i class="fa-solid fa-location-dot fa-xl" style="color: aqua;"></i><h4>Pudukkottai</h4></div>
+                <div><i class="fa-solid fa-phone fa-xl" style="color: aqua;"></i><h4>+91 8807914963</h4></div>
+                <div><i class="fa-solid fa-envelope fa-xl" style="color: aqua;"></i><h4>Manirethinam2005@gmail.com</h4></div>
+                <div class="link">
+                    <h3>Follow on</h3>
+                    <div>
+                        <a href="https://www.instagram.com/_mani.__27/"><i class="fa-brands fa-instagram fa-xl"></i></a>
+                        <a href="https://www.linkedin.com/in/manirethinam-r-427b05347"><i class="fa-brands fa-linkedin fa-xl"></i></a>
+                        <a href="https://github.com/manirethinam27"><i class="fa-brands fa-github fa-xl"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form">
+                <h3>Send a message</h3>
+                <form action="post">   
+                    <input type="text" placeholder="Your Name" name="name" id="name">         
+                    <input type="text" placeholder="Your E-mail" name="email" id="email">                 
+                    <textarea name="Message" id="Message" placeholder="Your Message.."></textarea>                   
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!--                    footer                   -->
+
+    <footer>
+        <p>© 2025 Manirethinam. All rights reserved.</p>
+        <p>Made with ❤️ by <a href="#home">Manirethinam</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
